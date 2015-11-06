@@ -49,8 +49,10 @@ static char VERSION[] = "SNAPSHOT";
 // to compare against the param received.
 static uint8_t known_pins[] = {
 		4,      // P1-7
+                13,
 		17,     // P1-11
 		18,     // P1-12
+                19,
 		27,     // P1-13
 		21,     // P1-13
 		22,     // P1-15
