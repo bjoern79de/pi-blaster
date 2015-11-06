@@ -50,6 +50,7 @@ static char VERSION[] = "SNAPSHOT";
 static uint8_t known_pins[] = {
 		4,      // P1-7
                 13,
+                16,
 		17,     // P1-11
 		18,     // P1-12
                 19,
