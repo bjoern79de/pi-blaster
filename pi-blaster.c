@@ -48,18 +48,23 @@ static char VERSION[] = "SNAPSHOT";
 // Created new known_pins with raspberry pi list of pins
 // to compare against the param received.
 static uint8_t known_pins[] = {
-		4,      // P1-7
+		5,      // P1-7
+		6,
+		12,
                 13,
-                16,
+		16,
 		17,     // P1-11
 		18,     // P1-12
                 19,
+		20,
 		27,     // P1-13
 		21,     // P1-13
 		22,     // P1-15
 		23,     // P1-16
 		24,     // P1-18
 		25,     // P1-22
+		26,
+		27
 };
 
 // pin2gpio array is not setup as empty to avoid locking all GPIO
